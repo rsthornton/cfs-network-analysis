@@ -565,7 +565,7 @@ Examples:
     parser.add_argument('--destinations', help='Destination states filter (e.g., NY,FL)')
     parser.add_argument('--top-n', type=int, default=20, help='Number of top flows to display')
     parser.add_argument('--sample', type=int, help='Sample size for testing')
-    parser.add_argument('--output', default='analysis/flow_results', help='Output directory')
+    parser.add_argument('--output', default='results', help='Output directory')
     parser.add_argument('--visualize', action='store_true', help='Generate visualizations')
     parser.add_argument('--show-commodities', help='Show available commodities (optionally by category)')
     parser.add_argument('--show-states', action='store_true', help='Show available state codes')

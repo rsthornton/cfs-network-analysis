@@ -42,7 +42,6 @@ Thumbs.db
 
 # Generated results (machine-specific, can be recreated)
 analysis/results/
-analysis/flow_results/
 
 # Project-specific Claude instructions (private)
 CLAUDE.md

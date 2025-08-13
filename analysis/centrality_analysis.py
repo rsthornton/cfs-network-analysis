@@ -766,7 +766,7 @@ Examples:
     )
     
     parser.add_argument('--data', required=True, help='Path to CFS CSV data file')
-    parser.add_argument('--output', default='analysis/results', help='Output directory for results (default: analysis/results)')
+    parser.add_argument('--output', default='results', help='Output directory for results (default: results)')
     parser.add_argument('--sample', type=int, help='Sample size for testing (use full dataset if not specified)')
     parser.add_argument('--top-n', type=int, default=10, help='Number of top states to analyze (default: 10)')
     parser.add_argument('--threshold', type=float, default=0, help='Minimum flow value threshold (default: 0)')
