@@ -2,8 +2,10 @@
 *.csv
 *.xlsx
 *.xls
+*.zip
 analysis/cfs_2017_puf.csv
 analysis/*.csv
+analysis/*.zip
 data/
 
 # Virtual environment
